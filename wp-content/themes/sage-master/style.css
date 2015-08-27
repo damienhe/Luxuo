@@ -24,6 +24,17 @@ body {
 .padding {
     padding: 15px;
 }
+.arrow-down {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #66cccc;
+    position: absolute;
+    width: 0;
+    margin-top: 16px;
+}
+.row {
+    max-width: 70rem;
+}
 /* Nav css */
 header {
     background-color: #161616;
@@ -45,6 +56,9 @@ nav > ul > li {
 nav ul {
     vertical-align: middle;
     margin: 0;
+}
+nav a {
+    color: white;
 }
 #logo-container {
     width: calc(50% - 590px);
@@ -258,4 +272,10 @@ footer p{
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
     padding: 5px;
+}
+footer a {
+    color: white;
+}
+#footer-bottom .right{
+    margin-top: 9px;
 }
