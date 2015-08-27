@@ -93,7 +93,7 @@ use Roots\Sage\Wrapper;
                 </li>
                 <li>
                     <a href=" ">
-                        YACHING
+                        YATCHING
                     </a>
                 </li>
             </ul>
@@ -1183,47 +1183,47 @@ use Roots\Sage\Wrapper;
                                 <a href="#">CARS</a>
                             </li>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">GADGETS</a>
                             </li>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">DESIGN</a>
                             </li>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">EVENTS</a>
                             </li>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">FASHION</a>
                             </li>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">WATCHES & JEWELRY</a>
                             </li>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">DINING & DRINKING</a>
                             </li>
                         </ul>
                     </div>
                     <div class="medium-4 left">
                         <ul>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">REAL ESTATE</a>
                             </li>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">TRAVEL</a>
                             </li>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">HOTELS</a>
                             </li>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">MOST EXPENSIVE</a>
                             </li>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">RICH PEOPLE</a>
                             </li>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">LUXURY NEWS</a>
                             </li>
                             <li>
-                                <a href="#">CARS</a>
+                                <a href="#">YATCHING</a>
                             </li>
                         </ul>
                     </div>
