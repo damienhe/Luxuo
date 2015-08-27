@@ -1,0 +1,261 @@
+/*
+Theme Name:         Sage Starter Theme
+Theme URI:          https://roots.io/sage/
+Description:        Sage is a WordPress starter theme. <a href="https://github.com/roots/sage">Contribute on GitHub</a>
+Version:            8.2.1
+Author:             Roots
+Author URI:         https://roots.io/
+
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+
+/* Master css */
+.desktop-body {
+    background-color: #e9e9e9;
+    line-height: 1.4;
+}
+body {
+    font-family: "Vollkorn", serif;
+}
+.margin {
+    margin: 15px;
+}
+.padding {
+    padding: 15px;
+}
+/* Nav css */
+header {
+    background-color: #161616;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+nav > ul > li {
+    border-right: 1px solid #555555;
+    display: table-cell;
+    font-size: 12.5px;
+    height: 70px;
+    line-height: 70px;
+    position: static;
+    font-family: "Lato", sans-serif;
+    padding: 0 7px;
+}
+nav ul {
+    vertical-align: middle;
+    margin: 0;
+}
+#logo-container {
+    width: calc(50% - 590px);
+}
+#logo {
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 10px;
+    height: 70px;
+    transition: height 0.3s ease 0s;
+}
+#logo img {
+    height: 70%;
+    width: auto;
+}
+#logo-container,
+nav {
+    float: left;
+}
+
+/* End of Nav css */
+/* Index page css */
+.ad-space {
+    margin-bottom: 15px;
+}
+.page-container {
+    padding-top: 75px;
+}
+.section-container {
+    background-color: #f3f3f3;
+    overflow: auto;
+    margin: 5px 0;
+}
+.article a {
+    color: black;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    font-size: 0.9rem;
+}
+.article p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+.latest-article-small .right{
+    padding-left: 8px;
+}
+.latest-article-small a {
+    line-height: 20px;
+    display: block;
+}
+
+.right-column-title {
+    background-color: #66cccc;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.right-column-content {
+    border: 1px solid #66cccc;
+}
+.right-column-content p{
+    font-size: 0.8rem;
+}
+.right-column-content h3 {
+    color: #a9a196;
+}
+#newsletter-form input[type="text"] {
+    background-color: #e5e5e5;
+    width: 60%;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    padding: 5px;
+}
+#newsletter-form input[type="submit"] {
+    width: 35%;
+    background-color: #66CCCC;
+    border: medium none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 6px 0;
+    text-align: center;
+}
+#top-articles ul li,
+#top-videos ul li {
+    border-top: 1px solid #dac8b4;
+    padding-bottom: 0.3rem;
+}
+
+.category-title {
+    background-color: #671919;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    padding: 8px 10px;
+    width: 55px;
+    left: -5px;
+    position: relative;
+}
+.category-title-2 {
+    background-color: #675748;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    padding: 8px 10px;
+    width: auto;
+    position: absolute;
+}
+.category-container {
+    background-color: #ffffff;
+    overflow: auto;
+}
+.category-container a {
+    color: black;
+    font-weight: bold;
+    font-family: "Lato", sans-serif;
+    font-size: 0.8rem;
+}
+.main-category-article {
+    padding-bottom: 15px;
+    overflow: auto;
+}
+.category-container > div > div:first-child p {
+    font-size: 0.8rem;
+}
+.category-container > div > div:first-child > .left {
+    padding-top: 30px
+}
+.category-container > div > div:first-child > .right::before {
+    border-top: 1px solid #671919;
+    content: "";
+    margin-bottom: 12px;
+    margin-top: 16px;
+    display: block;
+    width: 50%;
+}
+.category-container li{
+    padding-bottom: 10px;
+}
+.category-side-title {
+    background-color: #d4cbc4;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.category-side-articles {
+    background-color: #ece1e1;
+    padding: 0 10px;
+}
+.category-side-articles ul {
+    margin-left: 0;
+}
+.category-side-articles li {
+    border-bottom: 1px dotted;
+    list-style: outside none none;
+    font-weight: normal;
+}
+.category-side-articles a {
+    font-weight: normal;
+    font-family: "Vollkorn", sans-serif;
+}
+
+/* End of index page */
+/* Footer css */
+footer {
+    background-color: #161616;
+    color: #aeaeae;
+    overflow: auto;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+footer li {
+    padding: 5px 0;
+}
+footer,
+footer a,
+footer p{
+    font-size: 0.85rem;
+}
+#to-top {
+    background-color: #66cccc;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    right: 0;
+    position: absolute;
+}
+#footer-container {
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#footer-main-content {
+    border-bottom: 1px solid #383838;
+    overflow: auto;
+}
+#footer-bottom li::after {
+    content: "|";
+    margin-left: 10px;
+    margin-right: 8px;
+}
+#footer-bottom li {
+    display: inline-block;
+}
+#footer-social-media {
+    text-align: right;
+}
+#footer-search input[type="text"] {
+    background-color: #383838;
+    border: medium none;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    padding: 5px;
+}
